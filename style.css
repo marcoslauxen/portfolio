@@ -50,6 +50,11 @@ a {
     color: var(--text-color);
     text-decoration: none;
     font-size: 2rem;
+    font-weight: 600;
+}
+
+#inicio {
+    color: var(--main-color);
 }
 
 img {
@@ -74,7 +79,9 @@ img {
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 10%;
+    justify-content: center;
+    height: 100vh;
+    padding-left: 10%; 
 }
 
 .inicio-right {
@@ -107,6 +114,7 @@ img {
 .inicio-left p {
     font-size: 1.6rem;
     margin: 5% 0;
+    font-weight: bold;
 }
 
 span {
@@ -119,11 +127,12 @@ span {
 }
 
 .footer-inicio {
-    position: fixed;
+    position: absolute; 
     bottom: 0;
-    display: flex;
-    width: 45%;
+    left: 0;
+    width: 100%;
     padding: 1rem;
+    padding-left: 10%;
 }
 
 .footer-inicio a {
@@ -131,11 +140,11 @@ span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px; /* Ajuste conforme necessário */
-    height: 40px; /* Ajuste conforme necessário */
+    width: 40px; 
+    height: 40px;
     background: var(--main-color);
     border: .2rem solid var(--main-color);
-    border-radius: 50%; /* Para tornar o ícone circular */
+    border-radius: 50%; 
     font-size: 1.8rem;
     font-weight: bold;
     letter-spacing: .1rem;
@@ -143,10 +152,10 @@ span {
     z-index: 1;
     overflow: hidden;
     transition: .5s;
-    margin-right: 10px; /* Espaçamento entre os ícones, ajuste conforme necessário */
-    text-decoration: none; /* Remover sublinhado padrão */
-    text-align: center; /* Alinhar o texto ao centro */
-    line-height: 40px; /* Alinhar o texto verticalmente */
+    margin-right: 10px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
 }
 
 .footer-inicio a:hover {
