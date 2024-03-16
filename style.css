@@ -19,11 +19,14 @@ html {
 }
 
 body {
+    overflow-x: hidden;
     background-color: var(--bg-color);
     color: var(--text-color);
     height: 100vh;
     width: 100vw;
+    margin: 0;
 }
+
 
 header {
     position: fixed;
@@ -133,6 +136,7 @@ span {
     width: 100%;
     padding: 1rem;
     padding-left: 10%;
+    padding-bottom: 5%;
 }
 
 .footer-inicio a {
@@ -301,4 +305,57 @@ span {
 
 .btn-github:hover::before {
     width: 100%;
+}
+
+.section-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--second-bg-color);
+    padding: 6%;
+}
+
+.section-sobre h1 {
+    font-size: 5rem;
+}
+
+.section-sobre img {
+    width: 60%;
+    border-radius: 50%;
+    border: 0.2rem solid white;
+}
+
+.img-astronauta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.section-sobre h3 {
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+
+.text-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    width: 80%;
+}
+
+.text-sobre p {
+    font-size: 1.6rem;
+    margin-bottom: 3%;
+}
+
+#btn-mais {
+    width: 100%;
+}
+
+.bt-box-sobre {
+    margin-bottom: 10%;
 }
