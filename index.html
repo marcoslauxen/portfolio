@@ -17,14 +17,14 @@
     <header id="header">
       <h1><a href="#">MVSL</a></h1>
       <nav>
-        <a id="inicio" href="#">Inicio</a>
+        <a id="inicio" href="#id-inicio">Inicio</a>
         <a href="#sobre">Sobre</a>
         <a href="#habilidades">Habilidades</a>
         <a href="#projetos">Projetos</a>
-        <a href="#">Contato</a>
+        <a href="#contato">Contato</a>
       </nav>
     </header>
-    <section class="section-inicio">
+    <section class="section-inicio" id="id-inicio">
       <section class="inicio-left">
         <div class="position-text">
           <h1>Olá, eu sou <span>Marcos Lauxen</span></h1>
@@ -219,8 +219,28 @@
         </div>
       </div>
 
+    </div>
+
+    <div class="btn-box btn-mais btn-ver-mais" id="btn-projetos">
+      <a class="btn btn-linkedin">Ver mais</a>
+    </div>
+
+  </section>
+
+  <section class="section-contato" id="contato">
+    <h2 class="text-contato">Contate - <span>Me!</span></h2>
+
+    <div class="box-contato">
+      <input type="text" name="text" id="text" placeholder="Seu nome completo">
+      <input type="email" name="email" id="email" placeholder="Digite seu email">
+      <input type="number" name="number" id="number" placeholder="Número de telefone">
+      <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem."></textarea>
+
+      <div class="btn-box btn-enviar">
+        <a class="btn btn-linkedin">Enviar</a>
 
     </div>
+
   </section>
 
     <script
