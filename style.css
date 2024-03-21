@@ -732,6 +732,7 @@ input {
   margin-bottom: 3rem;
   outline: none;
   padding-left: 2rem;
+  font-size: 2rem
 }
 
 #text-grande {
@@ -748,7 +749,7 @@ textarea {
   height: 28rem;
   width: 100%;
   margin-bottom: 4rem;
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 400;
   outline: none;
   padding-left: 2rem;
